@@ -1,12 +1,24 @@
-# Tags: latest, 2.5.0-debian-10-r10, 2.5.0, 2-debian-10, 2
+# Tags: latest, 2.5.0-debian-10-r14, 2.5.0, 2-debian-10, 2
 FROM bitnami/harbor-jobservice:latest
-FROM bitnami/harbor-jobservice:2.5.0-debian-10-r10
+FROM bitnami/harbor-jobservice:2.5.0-debian-10-r14
 FROM bitnami/harbor-jobservice:2.5.0
 FROM bitnami/harbor-jobservice:2-debian-10
 FROM bitnami/harbor-jobservice:2
 
 # Tags: _
 FROM bitnami/harbor-jobservice:_
+
+# Tags: 2.5.0-debian-10-r13
+FROM bitnami/harbor-jobservice:2.5.0-debian-10-r13
+
+# Tags: 2.5.0-debian-10-r12
+FROM bitnami/harbor-jobservice:2.5.0-debian-10-r12
+
+# Tags: 2.5.0-debian-10-r11
+FROM bitnami/harbor-jobservice:2.5.0-debian-10-r11
+
+# Tags: 2.5.0-debian-10-r10
+FROM bitnami/harbor-jobservice:2.5.0-debian-10-r10
 
 # Tags: 2.5.0-debian-10-r9
 FROM bitnami/harbor-jobservice:2.5.0-debian-10-r9
@@ -83,18 +95,3 @@ FROM bitnami/harbor-jobservice:2.4.2-debian-10-r18
 
 # Tags: 2.4.2-debian-10-r17
 FROM bitnami/harbor-jobservice:2.4.2-debian-10-r17
-
-# Tags: 2.4.2-debian-10-r16
-FROM bitnami/harbor-jobservice:2.4.2-debian-10-r16
-
-# Tags: 2.4.2-debian-10-r15
-FROM bitnami/harbor-jobservice:2.4.2-debian-10-r15
-
-# Tags: 2.4.2-debian-10-r14
-FROM bitnami/harbor-jobservice:2.4.2-debian-10-r14
-
-# Tags: 2.4.2-debian-10-r13
-FROM bitnami/harbor-jobservice:2.4.2-debian-10-r13
-
-# Tags: 2.4.2-debian-10-r12
-FROM bitnami/harbor-jobservice:2.4.2-debian-10-r12
